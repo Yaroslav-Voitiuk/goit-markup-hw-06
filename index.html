@@ -362,10 +362,20 @@
                     </li>
                 </ul>
             </div>
+            <div class="footer-modal-form-div">
+                <p class="footer-form-title">Підпишись на розсилку</p>
+                <form class="footer-modal-form">
+                    <label class="modal-form-field">
+                            <input type="text" class="footer-form-input" required name="user_email" placeholder="E-mail">
+                        </span>
+                    </label>
+                    <button type="submit" class="footer-form-submit">Підписатися</button>
+                </form>
+            </div>
         </div>
     </footer>
 
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="modal-close-btn" type="button" data-modal-close>
                 <svg class="modal-close-icon" width="18" height="18">
@@ -410,7 +420,7 @@
                     <svg aria-label="іконка підтвердження" class="modal-form-own-checkbox">
                         <use class="modal-form-own-checkbox-icon" href="./images/icons.svg#icon-vector"></use>
                     </svg>
-                    Погоджуюсь з розсилкою та приймаю <a href="">Умови договору</a>
+                    Погоджуюсь з розсилкою та приймаю&nbsp;<a class="modal-form-check-link" href="">Умови договору</a>
                 </label>
                 <button type="submit" class="modal-form-submit">Відправити</button>
             </form>

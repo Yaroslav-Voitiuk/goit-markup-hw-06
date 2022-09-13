@@ -725,12 +725,12 @@ button {
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: transparent;
     padding: 0;
+    transition: var(--transition-dur-and-func);
 }
 
 .modal-close-btn:focus,
 .modal-close-btn:hover {
     fill: var(--button-hover-color);
-    transition: var(--transition-dur-and-func);
 }
 
 .backdrop.is-hidden {
@@ -782,7 +782,14 @@ button {
 
 .modal-form-field {
     margin-bottom: 10px;
-    margin-right: 12px;
+}
+
+.modal-form-field-last {
+    margin-bottom: 17px;
+}
+
+.modal-form-footer {
+    margin-right: 10px;
 }
 
 .modal-form-input-wrapper {
